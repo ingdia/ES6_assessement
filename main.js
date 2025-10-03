@@ -44,12 +44,13 @@ async function fetchData(){
 
   if (Data){
      for (element in Data){
-   auth
+   auth_comments = Data.comments;
+   console.log( Data.comments)
  }
   }
  
 
-  console.log(Data)
+  
  }
  catch{
   Error.name
